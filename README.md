@@ -1,17 +1,14 @@
-# mod3_kel07
+# Countries
 
-A new Flutter project.
+A Flutter app that lists countries and shows details such as capital, region, population, languages, and currencies. Country data and flag images are fetched from [apicountries.com](https://www.apicountries.com/countries).
 
-## Getting Started
+## Known issue
 
-This project is a starting point for a Flutter application.
+- Afghanistan's flag does not appear in the app.
 
-A few resources to get you started if this is your first Flutter project:
+## Run the app
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```sh
+flutter pub get
+flutter run
+```
